@@ -1,0 +1,19 @@
+# Python environments
+venv/
+streamlit_project/venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Tableau autosave/temp files
+*.twbr
+.~*.tw*
+
+# Regenerable database (rebuilt from sql/*.sql scripts)
+sql/hospital_readmissions.db
+
+# Duplicate data (same as tableau/data/, avoid double-storing)
+streamlit_project/data/
+streamlit_project/streamlit_log.txt
